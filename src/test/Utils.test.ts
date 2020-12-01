@@ -1,7 +1,9 @@
+import { Utils } from "../app/Utils";
 
 describe ('Utils test suite', () => {
 
   test('First test', () => {
-    console.log("Hello World");
+    const testString = Utils.toUpperCase('testing string')
+    console.log(testString);
   })
 })
